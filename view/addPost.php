@@ -37,7 +37,7 @@
                 <textarea id="contentPost" name="contentPost"></textarea>
             </div>
             <div class="mt-3">
-                <input class="btn btn-primary" type="submit" value="publier"/>
+                <input class="btn btn-primary btn-success" type="submit" value="publier"/>
             </div>
         </form>
     </div>
