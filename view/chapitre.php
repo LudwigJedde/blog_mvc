@@ -30,7 +30,7 @@
         <h3 class="text-center m-2 m-md-5">Ajouter un commentaire</h3>
         <form class="border border-dark rounded p-4" action="index.php?action=addComment&amp;id=<?php echo $post->getId(); ?>" method="post">
             <div class="comment-input">
-                <label for="author">Auteur</label><br />
+                <label for="author">Votre nom</label><br />
                 <input class="form-control" type="text" id="author" name="author"/>
             </div>
             <div class="comment-input ">
@@ -38,7 +38,7 @@
                 <textarea class="form-control comment-height" id="comment" name="comment"></textarea>
             </div>
             <div class="comment-input ">
-                <input class="btn btn-primary" type="submit" value="envoyer"/>
+                <input class="btn btn-primary btn-warning" type="submit" value="envoyer"/>
             </div>
         </form>
     </div>
@@ -54,7 +54,7 @@
                 <p>publié le: <?php echo htmlspecialchars($comment->getDateComment()); ?></p>
                 <form action="index.php?action=reportComment&amp;id=<?php echo $comment->getId();?>" method="post">
                     <div>
-                        <input class="btn btn-primary" type="submit" value="signaler"/>
+                        <input class="btn btn-primary btn-danger" type="submit" value="signaler"/>
                     </div>
                 </form>
             </div>
