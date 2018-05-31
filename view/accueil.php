@@ -50,12 +50,12 @@
                 </tbody>
             </table>
 
-            <div class="contact mt-5">
+            <!--<div class="contact mt-5">
                 <h2 class="text-center mb-4">Pour me contacter :</h2>
                 <div class="bordure mb-4 p-4 d-sm-flex justify-content-around custom">
                     <i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 
