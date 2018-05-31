@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="public/nav.css">
     <link rel="stylesheet" href="public/margin.css">
     <link rel="stylesheet" href="public/style.css">
-    <title>Gestion chapitre</title>
+    <title>Gestion des chapitres</title>
 </head>
 <body>
 
     <?php include('template/nav.php'); ?>
-    <h3 class="text-center margin-admin">modifier chapitre</h3>
+    <h3 class="text-center margin-admin">modifier un chapitre</h3>
     <div class="border border-dark rounded m-2 p-2 m-md-5 p-md-5">
         <?php
         foreach ($posts as $post)
