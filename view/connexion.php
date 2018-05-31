@@ -22,7 +22,7 @@
 </head>
 <body>
 
-    <?php include('templates/nav.php'); ?>
+    <?php include('template/nav.php'); ?>
 
     <form action="index.php?action=connexion" method="post" class="form-signin margin">
         <img src="./public/images/admin.png" alt="Administrateur" width="100%"/>
