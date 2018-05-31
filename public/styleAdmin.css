@@ -1,0 +1,32 @@
+body, html {
+  font-family: 'Dancing Script', cursive;
+    background: #487eb0;
+}
+
+
+.home-title, .box-article{
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.navbar-brand, body{
+    font-size: 1.50rem;
+}
+
+.table-dark{
+    border-radius: 20px;
+}
+
+h1, h2, h3, a, .media-body{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.fa.fa-envelope-square {
+    color: #fd7e14;
+}
+.post, .addComment{
+    background-color: darkgray;
+    border-radius: 20px;
+}
