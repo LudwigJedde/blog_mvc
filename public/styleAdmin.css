@@ -18,7 +18,7 @@ body, html {
     border-radius: 20px;
 }
 
-h1, h2, h3, a, .media-body{
+h1, h2, h3, a, .media-body, label{
     color: white;
     text-shadow: 2px 2px black;
 }
