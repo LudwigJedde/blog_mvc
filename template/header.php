@@ -1,5 +1,5 @@
 <header class="margin">
-<div class="text-center mt-3 mt-md-5 home-title">
+<div class="text-center d-flex flex-column mt-3 mt-md-5 home-title">
     <div class="media p-5">
         <div class="media-body">
             <img src="./public/images/avatar.png" alt="Jean Forteroche" class="mr-3 mt-3 rounded-circle" style="width:300px;">
