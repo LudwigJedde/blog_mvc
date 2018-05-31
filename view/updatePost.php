@@ -23,7 +23,7 @@
 </head>
 <body>
 
-    <?php include('templates/nav.php'); ?>
+    <?php include('template/nav.php'); ?>
     <h3 class="text-center margin-admin">modifications chapitre</h3>
 
     <div class="updatePost m-2 p-2 m-md-5 p-md-5 border border-dark rounded">
