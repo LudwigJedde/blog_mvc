@@ -18,8 +18,8 @@
 </head>
 <body>
 
-    <?php   include('templates/nav.php');
-            include('templates/header.php');
+    <?php   include('template/nav.php');
+            include('template/header.php');
     ?>
 
     <div class="box-article d-lg-flex mt-3 mt-md-5">
