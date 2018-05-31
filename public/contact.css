@@ -1,0 +1,15 @@
+.bordure{
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 575px){
+    .custom{
+        display: flex;
+        flex-direction: column;
+    }
+.fa.fa-envelope-square{
+        margin-top: 10px;
+        margin-right: 20px;
+        padding: 10px;
+    }
+}
