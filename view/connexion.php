@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="public/nav.css">
     <link rel="stylesheet" href="public/formConnexion.css">
     <link rel="stylesheet" href="public/margin.css">
-    <link rel="stylesheet" href="public/style.css">
+    <link rel="stylesheet" href="public/styleAdmin.css">
     <title>Connexion</title>
 </head>
 <body>
@@ -31,7 +31,7 @@
         <input type="text" id="pseudo" name="pseudo" class="form-control" placeholder="votre nom" required >
         <label for="inputPassword">Mot de passe :</label>
         <input type="password" id="password" name="password"class="form-control" placeholder="votre mot de passe" required>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Connexion</button>
+        <button class="btn btn-lg btn-primary btn-block btn-warning" type="submit">Connexion</button>
     </form>
 
 
