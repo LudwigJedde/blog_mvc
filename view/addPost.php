@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="public/nav.css">
     <link rel="stylesheet" href="public/margin.css">
     <link rel="stylesheet" href="public/style.css">
-    <script src="scripts/tinymce/tinymce.min.js"></script>
+    <script src="script/tinymce/tinymce.min.js"></script>
     <script>
         tinymce.init({
             selector: "#contentPost",
@@ -24,7 +24,7 @@
 <body>
 
     <?php include('template/nav.php'); ?>
-    <h3 class="text-center margin-admin">ajout chapitre</h3>
+    <h3 class="text-center margin-admin">Ajouter un chapitre :</h3>
 
     <div class="addPost m-2 p-2 m-md-5 p-md-5 border border-dark rounded">
         <form action="index.php?action=addPost" method="post">
