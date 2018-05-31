@@ -18,7 +18,7 @@
 </head>
 <body>
 
-    <?php   include('templates/nav.php');
+    <?php   include('template/nav.php');
     ?>
     <br><br>
     <div class="post m-1 p-2 m-md-4 p-md-4">
