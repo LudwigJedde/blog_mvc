@@ -27,6 +27,10 @@ h1, h2, h3, a, .media-body{
     color: #fd7e14;
 }
 .post, .addComment{
-    background-color: darkgray;
+    background-color: tan;
     border-radius: 20px;
+}
+
+.comments{
+    background-color:cadetblue;
 }
