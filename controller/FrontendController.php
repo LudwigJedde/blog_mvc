@@ -1,6 +1,6 @@
 <?php
-require_once('data/PostData.php');
-require_once('data/CommentData.php');
+require_once('model/PostData.php');
+require_once('model/CommentData.php');
 
 class FrontendController
 {
@@ -25,6 +25,7 @@ class FrontendController
         $comments = $this->commentData->getComments($_GET['id']);
         $posts = $this->postData->getPosts();
         require('view/chapitre.php');
+        // voir encode //
     }
 
     public function addComment($postId, $author, $comment)
