@@ -14,7 +14,7 @@ try {
                 $frontendController->post();
             }
             else {
-                // Erreur ! On arrête tout, on envoie une exception, donc au saute directement au catch
+                // Erreur ! On arrête tout, on envoie une exception, donc au saute directement au catch (merci Mathieu Nebra ;-) )
                 throw new Exception('Aucun identifiant de billet envoyé');
             }
         }
@@ -51,6 +51,7 @@ try {
         elseif ($_GET['action'] == 'connexionForm'){
             $frontendController = new FrontendController();
             $frontendController->connexionForm();
+
         }
 
         elseif ($_GET['action'] == 'connexion'){
