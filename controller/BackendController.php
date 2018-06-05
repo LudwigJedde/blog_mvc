@@ -1,7 +1,7 @@
 <?php
-require_once('data/PostData.php');
-require_once('data/CommentData.php');
-require_once('data/UserData.php');
+require_once('model/PostData.php');
+require_once('model/CommentData.php');
+require_once('model/UserData.php');
 
 class BackendController
 {
