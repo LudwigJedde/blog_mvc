@@ -23,10 +23,17 @@ h1, h2, h3, a, .media-body, label{
     text-shadow: 2px 2px black;
 }
 
+p{
+    color: white;
+}
+
 .fa.fa-envelope-square {
     color: #fd7e14;
 }
 .post, .addComment{
     background-color: darkgray;
     border-radius: 20px;
+}
+.dropdown-item{
+    text-shadow: none;
 }
