@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Arvo|Dancing+Script" rel="stylesheet">
     <link rel="stylesheet" href="public/nav.css">
     <link rel="stylesheet" href="public/margin.css">
-    <link rel="stylesheet" href="public/style.css">
+    <link rel="stylesheet" href="public/styleAdmin.css">
     <title>Gestion des chapitres</title>
 </head>
 <body>
