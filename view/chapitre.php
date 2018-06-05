@@ -54,7 +54,7 @@
                 <p>publié le: <?php echo htmlspecialchars($comment->getDateComment()); ?></p>
                 <form action="index.php?action=reportComment&amp;id=<?php echo $comment->getId();?>" method="post">
                     <div>
-                        <input class="btn btn-primary btn-danger" type="submit" value="signaler"/>
+                        <input class="btn btn-primary btn-danger" type="submit" value="signaler !"/>
                     </div>
                 </form>
             </div>
