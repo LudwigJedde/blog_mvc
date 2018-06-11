@@ -33,20 +33,22 @@
                 <label for="titlePost">Titre du chapitre</label><br />
                 <input type="text" id="titlePost" name="titlePost" value="<?php echo htmlspecialchars($post->getTitle()); ?>"/>
             </div>
+
             <div>
                 <label for="contentPost">Contenu du chapitre</label><br />
                 <textarea id="contentPost" name="contentPost"><?php echo htmlspecialchars($post->getContent()); ?></textarea>
             </div>
-          </form>
-            <div class="mt-3">
+        <div class="mt-3">
+            <form action="index.php?action=updateConfirmation&amp;id=<?php echo $post->getId(); ?>" method="post">
                 <div class="d-inline">
-                    <input class="btn btn-primary" type="submit" value="modifier"/>
+                    <input class="btn btn-primary btn-warning" type="submit" value="modifier"/>
                 </div>
-
-                <form action="index.php?action=delete&amp;id=<?php echo $post->getId(); ?>" method="post" class="delete d-inline">
-                    <input class="btn btn-primary" type="submit" value="supprimer"/>
-                </form>
-            </div>
+            </form>
+            <form action="index.php?action=delete&amp;id=<?php echo $post->getId(); ?>" method="post" class="delete d-inline">
+                <input class="btn btn-primary btn-danger" type="submit" value="supprimer"/>
+            </form>
+        </div>
+        </form>
     </div>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
